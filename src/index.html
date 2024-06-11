@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
+  
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Analizador de texto</title>
-  <link rel="stylesheet" href="style.css" />
-  
+  <link rel="stylesheet" href="style.css"> 
 </head>
 
-<body>
-
+<body>	
+  <header>
     <h1>Analizador de texto</h1>
-    <textarea id="input-text" rows="10" cols="50" placeholder="Introduce tu texto aquí..."></textarea>
-    <button id="reset-button">Limpiar Texto</button>
-  <ul>
-    <li>Número de palabras: <span id="word-count"></span></li>
-    <li>Número de caracteres: <span id="char-count"></span></li>
-    <li>Número de caracteres (sin espacios): <span id="char-count-no-spaces"></span></li>
-    <li>Número de secuencias de dígitos: <span id="num-count"></span></li>
-    <li>Suma de números: <span id="num-sum"></span></li>
-    <li>Longitud media de palabras: <span id="avg-word-length"></span></li>
-  </ul>
-
+</header>
+    <textarea name="user-input"  placeholder="Introduce tu texto aquí..."></textarea>
+  <main>
+    <ul>
+      <li data-testid="word-count" class="mod">Recuento de palabras: 0</li>
+      <li data-testid="character-count" class="mod">Recuento de caracteres: 0</li>
+      <li data-testid="character-no-spaces-count" class="mod">Recuento de caracteres (sin espacios ni puntuación): 0</li>
+      <li data-testid="number-count" class="mod">Recuento de números: 0</li>
+      <li data-testid="number-sum" class="mod">Suma total de números: 0</li>
+      <li data-testid="word-length-average" class="mod">Longitud media de palabras: 0</li>
+  </ul></main>
+  <button id="reset-button">Limpiar Texto</button>
   <footer>
     <p>Autor: Gaby Hernandez</p>
   </footer>
-  
-  <script type="module" src="index.js"></script>
-  <script type="module" src="analyzer.js"></script>
+    <script type="module" src="index.js"></script> 
 </body>
 </html>

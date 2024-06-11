@@ -26,7 +26,7 @@
     "acorn": "^8.8.2",
     "babel-jest": "^27.0.1",
     "css": "^3.0.0",
-    "eslint": "^8.3.0",
+    "eslint": "^8.57.0",
     "gh-pages": "^3.1.0",
     "htmlhint": "^1.0.0",
     "jest": "^27.0.1",
@@ -41,5 +41,14 @@
     "createdAt": "2024-04-29T18:44:59.190Z",
     "version": "8.4.0",
     "commit": "d5b8aec07b9436348c5e1eb156926b50f8ab795f"
-  }
+  },
+  "dependencies": {
+    "debug": "^4.3.4"
+  },
+  "description": "## Índice",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": ""
 }
