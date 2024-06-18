@@ -1,13 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+  
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Analizador de texto</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"> 
 </head>
 
-<body>
-  <script src="index.js" type="module"></script>
+<body>	
+  <header>
+    <h1>Analizador de texto</h1>
+</header>
+    <textarea name="user-input"  placeholder="Introduce tu texto aquí..."></textarea>
+  <main>
+    <ul>
+      <li data-testid="word-count" class="mod">Recuento de palabras: 0</li>
+      <li data-testid="character-count" class="mod">Recuento de caracteres: 0</li>
+      <li data-testid="character-no-spaces-count" class="mod">Recuento de caracteres (sin espacios ni puntuación): 0</li>
+      <li data-testid="number-count" class="mod">Recuento de números: 0</li>
+      <li data-testid="number-sum" class="mod">Suma total de números: 0</li>
+      <li data-testid="word-length-average" class="mod">Longitud media de palabras: 0</li>
+  </ul></main>
+  <button id="reset-button">Limpiar Texto</button>
+  <footer>
+    <p>Autor: Gaby Hernandez</p>
+  </footer>
+    <script type="module" src="index.js"></script> 
 </body>
 </html>

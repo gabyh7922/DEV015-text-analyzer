@@ -1,6 +1,5 @@
 // We import the object 'analyzer' which contains the functions.
-import analyzer from '../src/analyzer';
-
+import { analyzer } from './../src/analyzer.js';
 
 const TEST_TEXT_NO_NUMBERS = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
 const TEST_TEXT_NUMBERS = 'If I have 8 apples and I buy 2 more, how many apples do I have in total?';
