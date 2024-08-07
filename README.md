@@ -51,6 +51,8 @@ Escribir al correo : gaby7922@gmail.com
 
 7. Credenciales
 
+   https://gabyh7922.github.io/DEV015-text-analyzer/src/
+
 Autor
 Gaby hernandez
 
